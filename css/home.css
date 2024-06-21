@@ -13,4 +13,21 @@
 
 #border1{
     border: solid 2px;
+    padding-top: 0px;
+}
+
+#underline{
+    border-bottom: solid 1px;
+}
+
+.boardStyle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    height: 360px;
+    background-color: #c6c6c6;
+  }
+
+div.boardStyle > p{
+    padding-left: 10px;
 }
