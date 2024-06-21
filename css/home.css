@@ -3,11 +3,11 @@
     flex-direction: row;
   }
 .main{
-    width: 70%;
+    width: 90%;
     margin: 10px 0 10px 0;
 }
 .sidebar{
-    width: 30%;
+    width: 10%;
     margin: 10px 0 10px 0;
 }
 
@@ -21,13 +21,19 @@
 }
 
 .boardStyle {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     width: 360px;
-    height: 360px;
+    height: 140px;
     background-color: #c6c6c6;
+    border-radius: 5%;
   }
 
 div.boardStyle > p{
-    padding-left: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+div.boardStyle > li{
+    padding-left:  10px;
 }
