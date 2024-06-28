@@ -1,10 +1,25 @@
 h1 {
     color: #000000;
-    background-color: yellow;
+    background-color: orange;
     padding: 10px;
     text-align: center;
+    font-size: 32px;
 }
 
-hr {
-    color: #000000;
+
+.reccomend {
+    font-size: 28px;
+    background-color: white;
+}
+
+p {
+    font-size: 20px;
+    margin:0%;
+}
+
+h2 {
+    margin-left: 15px;
+    text-decoration: underline ;
+    display: inline-block;
+    background-color: orange;
 }
