@@ -17,7 +17,7 @@
 }
 
 #underline{
-    border-bottom: solid 1px;
+    border-bottom: solid 2px #2bc9e5;
 }
 
 .boardStyle {
@@ -25,15 +25,25 @@
     flex-wrap: wrap;
     width: 360px;
     height: 140px;
-    background-color: #c6c6c6;
+    background-color: #d8dced;
     border-radius: 5%;
+    border: solid 3px #2bc9e5;
   }
 
 div.boardStyle > p{
     text-align: center;
-    padding-top: 10px;
 }
 
 div.boardStyle > li{
     padding-left:  10px;
+}
+
+#margin-line{
+    border-bottom: solid 2px #2bc9e5;
+    padding-bottom: 15px;
+}
+
+#id1{
+    border-left: solid 3px #2bc9e5;
+    padding-left: 5px;
 }
