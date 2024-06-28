@@ -1,8 +1,19 @@
 h1{
     color: rgb(107, 38, 38);
+    padding: 20px;
+    background-color: rgba(207, 207, 207, 0.767);
 }
-
-#strong{
+h2{
     padding: 10px;
-    background-color: brown;
+    background-color: rgb(243, 93, 93);
+}
+#kimetsu1{
+    padding: 10px;
+    background-color: aliceblue;
+}
+#zenitsu2{
+    padding-bottom: 70px;
+}
+#inosuke_p{
+    padding: 5px;
 }
